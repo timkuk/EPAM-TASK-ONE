@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EPAM_TASK_ONE.AutoFactory" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAACBAAAAQBAAAgAAAgAA=</HashCode>
+      <FileName>AutoFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPAM_TASK_ONE.BusFactory">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPAM_TASK_ONE.PassengerFactory">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PassengerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPAM_TASK_ONE.TruckFactory">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TruckFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

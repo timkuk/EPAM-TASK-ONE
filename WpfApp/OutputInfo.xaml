@@ -11,26 +11,16 @@
             <ListView.View>
                 <GridView>
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Number}" Width="30">№</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Color}" Width="120">Brand</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Engien}" Width="130">Date of issues</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Wheals}" Width="110">Run</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Transmishion}" Width="120">Body type</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Weigth}" Width="130">Date of inspection</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Brand}" Width="120">Brand</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=IssueDate}" Width="130">Date of issues</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Run}" Width="110">Run</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=BodyType}" Width="120">Body type</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=InspectionDate}" Width="130">Date of inspection</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Owner}" Width="110">Owner</GridViewColumn>
                 </GridView>
             </ListView.View>
             <Button Content="Button" Height="100" Width="75"/>
             <ListViewItem Content="ListViewItem" Margin="0" Selected="ListViewItem_Selected"/>
         </ListView>
-        <Button Content="Update info" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,369,0,0" Click="Button_Click"/>
-        <Button Content="Close" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="709,369,0,0" Click="Button_Click_1"/>
-        <TextBox HorizontalAlignment="Left" Name="tb1" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" Margin="10,250,0,0"/>
-        <TextBox HorizontalAlignment="Left" Name="tb2" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" Margin="40,250,0,0"/>
-        <TextBox HorizontalAlignment="Left" Name="tb4" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Margin="273,250,0,0"/>
-        <TextBox HorizontalAlignment="Left" Name="tb5" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Margin="385,250,0,0"/>
-        <TextBox HorizontalAlignment="Left" Name="tb7" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Margin="634,250,0,0"/>
-        <Button Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="108,294,0,0" Click="Button_Click_2"/>
-        <Button Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="45,335,0,0" Click="Button_Click_4"/>
-        <Button Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,294,0,0" Click="Button_Click_3"/>
-        <TextBox HorizontalAlignment="Left" Name="tb0" Height="19" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" Margin="10,335,0,0" TextChanged="tb0_TextChanged"/>
     </Grid>
 </Window>
